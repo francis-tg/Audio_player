@@ -22,8 +22,9 @@ import Music from './Music'
 import  AudioUrl from "../audio/LePapara ft KIKO- WINNER prod by Tha Vicious (clip by Studio CAURIS) (online-audio-converter.com).mp3"
 import { useEffect } from 'react'
 import moment from 'moment'
+import defaultBanner from "../img/matt-botsford-OKLqGsCT8qs-unsplash.jpg"
 const Player = () => {
-    const [Img, setImg] = useState("https://images.unsplash.com/photo-1485579149621-3123dd979885?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80");
+    const [Img, setImg] = useState(defaultBanner);
     const [audioUrl, setAudioUrl] = useState("");
     const getAudio = document.querySelector("#audio-file");
     const [isPause, setisPause] = useState(true);
@@ -114,7 +115,6 @@ const Player = () => {
                     <Music banner="https://images.unsplash.com/photo-1477233534935-f5e6fe7c1159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" onPlay={()=>{
                         doPlay("https://images.unsplash.com/photo-1477233534935-f5e6fe7c1159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")
                     }}/>
-                    
                 </div>
             </Col>
             <Col lg={8} className="playing">
