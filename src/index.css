@@ -1,13 +1,1 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background-color:#292929;color:#fff}code{font-family:source-code-pro,Menlo,Monaco,Consolas,"Courier New",monospace}.player{background-color:#fff;color:#292929;border-radius:30px;height:90vh}.player .list-music{background-color:#393939;height:90vh;border-bottom-left-radius:30px;border-top-left-radius:30px;color:#fff}.player .list-music .music{display:flex;flex-direction:row;background-color:#ff0058;justify-content:space-between;border-radius:10px;color:#fff;padding:5px;margin:10px}.player .list-music .music .img-icon{width:50px;height:50px}.player .list-music .music:hover{cursor:pointer}.player .list-music .musics{scroll-behavior:smooth;transition:.5s all ease;max-height:75vh}.player .playing{background-color:#ff005981;border-bottom-right-radius:30px;border-top-right-radius:30px;backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);transition:all .5s cubic-bezier(0.165, 0.84, 0.44, 1);padding:0;color:#fff}.player .playing .playing-banner img{width:100%;height:70vh}.player .playing .playing-control{background-color:#393939;padding:7.9px;border-bottom-right-radius:20px}.player .playing .playing-control .timer{display:flex;justify-content:space-between;margin:5px}.player .playing .playing-control .progress-bar{width:100%;height:10px;border-radius:20px;background:#fff}.player .playing .playing-control .progress-bar:hover{cursor:pointer}.player .playing .playing-control .progress-bar .progress{background-color:#ff0058;width:0%;height:inherit;z-index:100}.player .playing .playing-control .control-btn{display:flex;justify-content:space-around;margin:20px}.player .playing .playing-control .control-btn .player-btn .icon{margin:0 20px}.player .playing .playing-control .control-btn .status .icon{margin:0 10px}.player .playing .playing-control .control-btn .icon:hover{color:#fa367bcc;cursor:pointer;transition:all .1s ease-in-out}.volume{position:relative}.volume #progressBar{position:absolute;top:10px;margin-left:10px;width:80px;height:8px;background-color:#666;border-radius:10px;display:inline-block}.volume #myVolume{width:10%;height:100%;background-color:#ff0058;border-radius:10px;display:block;border:0}.volume .volumeScaleHolder{padding:0;margin:3px 0}
